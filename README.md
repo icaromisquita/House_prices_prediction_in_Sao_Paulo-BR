@@ -8,4 +8,4 @@ The objective was to estimate the sales price of real estate properties in the c
 For this goal  the following techniques were used:
 * 4 different databases; 
 * The Geopandas library and geolocalized data;
-* Machine Learning model with Linear Regression. 
+* Machine Learning model with Linear Regression and Random Forest. 

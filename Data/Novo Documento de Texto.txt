@@ -1,0 +1,96 @@
+icaro@DESKTOP-KQ6O3O1 MINGW64 ~/Documents/WBS_Coding_School/Data Immersion Remade/Alura-Data-Immersion-4-main
+$ git init
+Initialized empty Git repository in C:/Users/icaro/Documents/WBS_Coding_School/Data Immersion Remade/Alura-Data-Immersion-4-main/.git/
+
+icaro@DESKTOP-KQ6O3O1 MINGW64 ~/Documents/WBS_Coding_School/Data Immersion Remade/Alura-Data-Immersion-4-main (master)
+$ git add .
+warning: LF will be replaced by CRLF in .ipynb_checkpoints/Data_immersion_4_Alura-checkpoint.ipynb.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in Data/Basico_SP1.csv.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in Data/Data_immersion_4_Alura.ipynb.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in Data/dados_geo.csv.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in Data/dados_imoveis.csv.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in Data/dados_vendas_censo.csv.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in Data/data_geo.csv.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in Data_immersion_4_Alura.ipynb.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in README.md.
+The file will have its original line endings in your working directory
+
+icaro@DESKTOP-KQ6O3O1 MINGW64 ~/Documents/WBS_Coding_School/Data Immersion Remade/Alura-Data-Immersion-4-main (master)
+$ $ git commit -m "Initial commit"
+bash: $: command not found
+
+icaro@DESKTOP-KQ6O3O1 MINGW64 ~/Documents/WBS_Coding_School/Data Immersion Remade/Alura-Data-Immersion-4-main (master)
+$ git remote add origin https://github.com/icaromisquita/House_prices_prediction_in_Sao_Paulo-BR.git
+
+icaro@DESKTOP-KQ6O3O1 MINGW64 ~/Documents/WBS_Coding_School/Data Immersion Remade/Alura-Data-Immersion-4-main (master)
+$ git push -u origin master
+error: src refspec master does not match any
+error: failed to push some refs to 'https://github.com/icaromisquita/House_prices_prediction_in_Sao_Paulo-BR.git'
+
+icaro@DESKTOP-KQ6O3O1 MINGW64 ~/Documents/WBS_Coding_School/Data Immersion Remade/Alura-Data-Immersion-4-main (master)
+$ git push -u origin master
+error: src refspec master does not match any
+error: failed to push some refs to 'https://github.com/icaromisquita/House_prices_prediction_in_Sao_Paulo-BR.git'
+
+icaro@DESKTOP-KQ6O3O1 MINGW64 ~/Documents/WBS_Coding_School/Data Immersion Remade/Alura-Data-Immersion-4-main (master)
+$ git add . && git commit -m "initial commit"
+[master (root-commit) 53098d3] initial commit
+ 15 files changed, 1180702 insertions(+)
+ create mode 100644 .ipynb_checkpoints/Data_immersion_4_Alura-checkpoint.ipynb
+ create mode 100644 "Data/BASE DE INFORMA\342\202\254\327\225ES POR SETOR CENSIT\302\265RIO Censo 2010 - Universo.pdf"
+ create mode 100644 Data/Basico_SP1.csv
+ create mode 100644 Data/Data_immersion_4_Alura.ipynb
+ create mode 100644 Data/dados_geo.csv
+ create mode 100644 Data/dados_imoveis.csv
+ create mode 100644 Data/dados_vendas_censo.csv
+ create mode 100644 Data/data_geo.csv
+ create mode 100644 Data/enderecos.csv
+ create mode 100644 Data/sp_setores_censitarios/35SEE250GC_SIR.dbf
+ create mode 100644 Data/sp_setores_censitarios/35SEE250GC_SIR.prj
+ create mode 100644 Data/sp_setores_censitarios/35SEE250GC_SIR.shp
+ create mode 100644 Data/sp_setores_censitarios/35SEE250GC_SIR.shx
+ create mode 100644 Data_immersion_4_Alura.ipynb
+ create mode 100644 README.md
+
+icaro@DESKTOP-KQ6O3O1 MINGW64 ~/Documents/WBS_Coding_School/Data Immersion Remade/Alura-Data-Immersion-4-main (master)
+$ $ git remote add origin https://github.com/icaromisquita/House_prices_prediction_in_Sao_Paulo-BR.git
+bash: $: command not found
+
+icaro@DESKTOP-KQ6O3O1 MINGW64 ~/Documents/WBS_Coding_School/Data Immersion Remade/Alura-Data-Immersion-4-main (master)
+$ git remote add origin https://github.com/icaromisquita/House_prices_prediction_in_Sao_Paulo-BR.git
+error: remote origin already exists.
+
+icaro@DESKTOP-KQ6O3O1 MINGW64 ~/Documents/WBS_Coding_School/Data Immersion Remade/Alura-Data-Immersion-4-main (master)
+$ git remote -v
+origin  https://github.com/icaromisquita/House_prices_prediction_in_Sao_Paulo-BR.git (fetch)
+origin  https://github.com/icaromisquita/House_prices_prediction_in_Sao_Paulo-BR.git (push)
+
+icaro@DESKTOP-KQ6O3O1 MINGW64 ~/Documents/WBS_Coding_School/Data Immersion Remade/Alura-Data-Immersion-4-main (master)
+$ git push -u origin master
+Enumerating objects: 19, done.
+Counting objects: 100% (19/19), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (19/19), done.
+Writing objects: 100% (19/19), 74.97 MiB | 908.00 KiB/s, done.
+Total 19 (delta 1), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (1/1), done.
+remote: warning: File Data/sp_setores_censitarios/35SEE250GC_SIR.dbf is 50.80 MB; this is larger than GitHub's recommended maximum file size of 50.00 MB
+remote: warning: File Data/sp_setores_censitarios/35SEE250GC_SIR.shp is 77.18 MB; this is larger than GitHub's recommended maximum file size of 50.00 MB
+remote: error: Trace: bf7828fa0f1309995bbb52927d0782a4a5ab911241dd02f6e1b4f4d277d6581f
+remote: error: See http://git.io/iEPt8g for more information.
+remote: error: File Data/enderecos.csv is 114.04 MB; this exceeds GitHub's file size limit of 100.00 MB
+remote: error: GH001: Large files detected. You may want to try Git Large File Storage - https://git-lfs.github.com.
+To https://github.com/icaromisquita/House_prices_prediction_in_Sao_Paulo-BR.git
+ ! [remote rejected] master -> master (pre-receive hook declined)
+error: failed to push some refs to 'https://github.com/icaromisquita/House_prices_prediction_in_Sao_Paulo-BR.git'
+
+icaro@DESKTOP-KQ6O3O1 MINGW64 ~/Documents/WBS_Coding_School/Data Immersion Remade/Alura-Data-Immersion-4-main (master)
+$
